@@ -1,68 +1,68 @@
 1. Hva er det dominante leddet til funksjonen f(n) = 0.5n + 40 i O-notasjon?
-- [o] O(2**n)
-- [o] O(n**n)
-- [o] O(n*log(n))
-- [o] O(log(n))
-- [o] O(n**2)
-- [o] O(1)
-- [o] O(n**3)
+- [ ] O(2**n)
+- [ ] O(n**n)
+- [ ] O(n*log(n))
+- [ ] O(log(n))
+- [ ] O(n**2)
+- [ ] O(1)
+- [ ] O(n**3)
 - [x] O(n)
 
 
 2. Hva er det dominante leddet til funksjonen f(n) = n**2 + 10n + 40 i O-notasjon? 
-- [o] O(n)
-- [o] O(n**3)
-- [o] O(1)
-- [o] O(log(n))
+- [ ] O(n)
+- [ ] O(n**3)
+- [ ] O(1)
+- [ ] O(log(n))
 - [x] O(n**2)
-- [o] O(n*log(n))
-- [o] O(n**n)
-- [o] O(2**n)
+- [ ] O(n*log(n))
+- [ ] O(n**n)
+- [ ] O(2**n)
 
 
 3.  Hva er det dominante leddet til funksjonen f(n) = 4n**3 + 10n**2 + n + 100 i O-notasjon?
-- [o] O(n)
+- [ ] O(n)
 - [x] O(n**3)
-- [o] O(2n)
-- [o] O(nn)
-- [o] O(log(n))
-- [o] O(n*log(n))
-- [o] O(1)
-- [o] O(n**2)
+- [ ] O(2n)
+- [ ] O(nn)
+- [ ] O(log(n))
+- [ ] O(n*log(n))
+- [ ] O(1)
+- [ ] O(n**2)
 
 
 4. Hva er det dominante leddet til funksjonen f(n) = n*log(n) + 5n i O-notasjon?
-- [o] O(n**n)
+- [ ] O(n**n)
 - [x] O(n*log(n))
-- [o] O(log(n))
-- [o] O(n)
-- [o] O(1)
-- [o] O(n**3)
-- [o] O(n**2)
-- [o] O(2**n)
+- [ ] O(log(n))
+- [ ] O(n)
+- [ ] O(1)
+- [ ] O(n**3)
+- [ ] O(n**2)
+- [ ] O(2**n)
 
 
 5. Hva er det dominante leddet til funksjonen f(n) = 15*log(n) + 5*n i O-notasjon?
-- [o] O(n*log(n))
-- [o] O(n**2)
-- [o] O(1)
+- [ ] O(n*log(n))
+- [ ] O(n**2)
+- [ ] O(1)
 - [x] O(n)
-- [o] O(2**n)
-- [o] O(n**n)
-- [o] O(n**3)
-- [o] O(log(n))
+- [ ] O(2**n)
+- [ ] O(n**n)
+- [ ] O(n**3)
+- [ ] O(log(n))
 
 
 6. Hva er det dominante leddet til funksjonen f(n) = n**n + n100 i O-notasjon? 
-- [0] O(n100)
-- [0] O(n**2)
-- [0] O(1)
-- [0] O(log(n))
+- [ ] O(n100)
+- [ ] O(n**2)
+- [ ] O(1)
+- [ ] O(log(n))
 - [x] O(n**n)
-- [o] O(n)
-- [o] O(n**3)
-- [o] O(2**n)
-- [o] O(n*log(n))
+- [ ] O(n)
+- [ ] O(n**3)
+- [ ] O(2**n)
+- [ ] O(n*log(n))
 
 
 7. Hva er kjøretida til til følgende Python funksjon i O-notasjon?
@@ -74,14 +74,14 @@ def sum(tall_liste):
         sum += tall
     return sum
 ```
-- [o] O(n*log(n))
-- [o] O(1)
+- [ ] O(n*log(n))
+- [ ] O(1)
 - [x] O(n)
-- [o] O(2n)
-- [o] O(n**3)
-- [o] O(log(n))
-- [o] O(n**2)
-- [o] O(n**n)
+- [ ] O(2n)
+- [ ] O(n**3)
+- [ ] O(log(n))
+- [ ] O(n**2)
+- [ ] O(n**n)
 
 
 8. Hva er best-case kjøretid til Python funksjonen minste_tall i O-notasjon? Problemstørrelsen er størrelsen til tallet. Husk at du må finne kjøretida til funksjonen "delelig" for å finne kjøretida til funksjonen minste_faktor.
@@ -100,14 +100,14 @@ def delelig(tall, faktor):
     else:
         return False
 ```
-- [o] O(n)
-- [o] O(n*log(n))
+- [ ] O(n)
+- [ ] O(n*log(n))
 - [x] O(1)
-- [o] O(2**n)
-- [o] O(log(n))
-- [o] O(n**n)
-- [o] O(n**2)
-- [o] O(n**3)
+- [ ] O(2**n)
+- [ ] O(log(n))
+- [ ] O(n**n)
+- [ ] O(n**2)
+- [ ] O(n**3)
 
 
 9. Hva er worst-case kjøretid til Python funksjonen minste_tall i O-notasjon? Problemstørrelsen er størrelsen til tallet. Husk at du må finne kjøretida til funksjonen "delelig" for å finne kjøretida til funksjonen minste_faktor.
@@ -126,14 +126,14 @@ def delelig(tall, faktor):
     else:
         return False
 ```
-- [o] O(n**n)
-- [o] O(log(n))
-- [o] O(2**n)
+- [ ] O(n**n)
+- [ ] O(log(n))
+- [ ] O(2**n)
 - [x] O(n)
-- [o] O(n**2)
-- [o] O(1)
-- [o] O(n*log(n))
-- [o] O(n**3)
+- [ ] O(n**2)
+- [ ] O(1)
+- [ ] O(n*log(n))
+- [ ] O(n**3)
 
 
 10. Hva er kjøretida til følgende Python funksjon i O-notasjon?
@@ -153,13 +153,13 @@ def outlier(tall_liste):
             outlier_value = tall
     return outlier_value
 ```
-- [o] O(n**3)
-- [o] O(n**n)
-- [o] O(1)
-- [o] O(n2)
-- [o] O(n*log(n))
-- [o] O(2**n)
-- [o] O(log(n))
+- [ ] O(n**3)
+- [ ] O(n**n)
+- [ ] O(1)
+- [ ] O(n2)
+- [ ] O(n*log(n))
+- [ ] O(2**n)
+- [ ] O(log(n))
 - [x] O(n)
 
 
@@ -172,14 +172,14 @@ def skriv_ut_firkant(storrelse, tegn):
             print(tegn, end="")
         print()
 ```
-- [o] O(n*log(n))
-- [o] O(n**n)
-- [o] O(n**3)
-- [o] O(2**n)
-- [o] O(log(n))
-- [o] O(n)
+- [ ] O(n*log(n))
+- [ ] O(n**n)
+- [ ] O(n**3)
+- [ ] O(2**n)
+- [ ] O(log(n))
+- [ ] O(n)
 - [x] O(n**2)
-- [o] O(1)
+- [ ] O(1)
 
 
 12. Hva er kjøretida til følgende Python funksjon i O-notasjon?
@@ -210,14 +210,14 @@ def diamant(storrelse):
                 print(" ", end="")
         print()
 ```
-- [o] O(2**n)
-- [o] O(n**n)
+- [ ] O(2**n)
+- [ ] O(n**n)
 - [x] O(n**2)
-- [o] O(log(n))
-- [o] O(1)
-- [o] O(n**3)
-- [o] O(n)
-- [o] O(n*log(n))
+- [ ] O(log(n))
+- [ ] O(1)
+- [ ] O(n**3)
+- [ ] O(n)
+- [ ] O(n*log(n))
 
 
 13. va er kjøretida til følgende Python funksjon i O-notasjon? Problemstørrelsen er størrelsen til tallet. Du kan bruke O(lengden til lista) som kjøretid for metodekallet resultat.reverse().
@@ -238,10 +238,10 @@ def binaer_form(tall):
     print()
 ```
 - [x] O(n) <- feil
-- [o] O(log(n)) <- er nok korrekt
-- [o] O(n*log(n))
-- [o] O(n**2)
-- [o] O(2**n)
-- [o] O(n**3)
-- [o] O(n**n)
-- [o] O(1)
+- [ ] O(log(n)) <- er nok korrekt
+- [ ] O(n*log(n))
+- [ ] O(n**2)
+- [ ] O(2**n)
+- [ ] O(n**3)
+- [ ] O(n**n)
+- [ ] O(1)
