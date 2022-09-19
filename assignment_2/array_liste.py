@@ -3,15 +3,15 @@ import numpy as np
 
 # TODO Legg til buffer
 class ArrayListe:
-    def __init__(self, startkapasitet = 20, buffer = 3):
+    def __init__(self, startkapasitet = 5, buffer = 3):
         self.array = np.zeros(startkapasitet, dtype=object)
         self.lengde = 0
         self.buffer = buffer
 
-    # TODO legger til element i starten av listen
-    # Kjøretid er o(n) siden den kaller utvid metoden
+    # TODO legger til element i starten av listen. Fungerer siden numpy støtter negative indexer
+    # Kjøretid er o(n) siden den kan kalle utvid metoden
     def appendleft(self, element: any) -> None:
-        if (self.buffer + self.lengde) >= len(self.array) or self.buffer == 0:
+        if (self.buffer + self.lengde) >= len(self.array):
             self.utvid()
         self.buffer -= 1
         self.array[self.buffer] = element
@@ -38,7 +38,8 @@ class ArrayListe:
     def __len__(self):
         return self.lengde
 
-    # Kjøretid Theta(n)
+    # Kjøretid Theta(n)ccccccnurrkgulcnruedgnflucbthkfffdckhgurjbrk
+
     # TODO bør legge til funksjonalitet for å lage en ny buffer
     def utvid(self, ny_storrelse=None):
         if ny_storrelse is None:
@@ -169,24 +170,41 @@ class ArrayListIterator:
 
 
 if __name__ == "__main__":
-    liste = ArrayListe(5)
-    liste.append(6)
-    liste.append(9)
-    liste.append(-2)
-    liste.insert(0, -5)
-    liste.insert(3, -8)
+    # liste = ArrayListe()
+    # liste.append(6)
+    # liste.append(9)
+    # liste.append(-2)
+    # liste.insert(0, -5)
+    # liste.insert(3, -8)
+    # liste.append(5)
+    # liste.append(7)
+    # liste.append(10)
+    # liste.appendleft(32)
+    # liste.appendleft(12)
+    # liste.appendleft(12)
+    # liste.appendleft(12)
+    # liste.appendleft(12)
+    # liste.appendleft(1231)
+    # print(liste.get(2))
+    # print(liste.search(5))
+    # print()
+    # for element in liste:
+    #     print(element)
+    # x = liste.popleft()
+    # y = liste.pop()
+    # z = liste.popleft()
+    # print(f"poppede verdier: x = {x}, y = {y}, z = {z}\n")
+    liste = ArrayListe()
+    liste.append(1)
+    liste.append(2)
+    liste.append(3)
+    liste.append(4)
     liste.append(5)
     liste.append(7)
     liste.append(10)
-    liste.appendleft(32)
-    liste.appendleft(12)
-    liste.appendleft(12)
-    liste.appendleft(12)
-    liste.appendleft(12)
-    liste.appendleft(1231)
-    print(liste.get(2))
-    print(liste.search(5))
-    print()
+    liste.insert(0, 100)
+
+
     for element in liste:
         print(element)
     print("\n")
