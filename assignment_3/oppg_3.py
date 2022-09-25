@@ -28,7 +28,7 @@ def koch_snowflake_start(lenght: int, order: int, color: str) -> None:
 def main() -> None:
     turtle.setup(800,800, 0, 0)
     turtle.pendown()
-    koch_snowflake_start(200, 3, "blue")
+    koch_snowflake_start(200, 2, "blue")
     turtle.done()
 
 if __name__ == "__main__":
