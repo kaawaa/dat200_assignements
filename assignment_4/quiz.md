@@ -16,7 +16,7 @@ Vis hvordan lista ser ut etter at Insertation Sort har gjort etter  5 passes av 
 
 Hva blir pivot element av denne lista hvis du velger siste element? 
 
-**5**
+**5** <- korrekt
 
 Hva blir "pi" etter første splitting av lista?
 

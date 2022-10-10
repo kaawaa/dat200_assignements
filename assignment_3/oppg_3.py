@@ -2,7 +2,7 @@ import turtle
 
 
 # Tegner snøflaket, rekursivt
-# Kjøretid er O(n**2)
+# Kjøretid er O(2**n)
 def koch_snowflake(lenght: int, order: int) -> None:
     # Base case
     if order <= 0:
@@ -28,7 +28,7 @@ def koch_snowflake_start(lenght: int, order: int, color: str) -> None:
 def main() -> None:
     turtle.setup(800,800, 0, 0)
     turtle.pendown()
-    koch_snowflake_start(200, 2, "blue")
+    koch_snowflake_start(300, 1, "blue")
     turtle.done()
 
 if __name__ == "__main__":

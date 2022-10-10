@@ -30,7 +30,7 @@ def hanoi_puzzle_solver(start: list, end: list, aux: list, discs: int, h: Hanoi)
     hanoi_puzzle_solver(start, aux, end, discs-1, h)
     end.append(start.pop())
     print(h)
-    time.sleep(0.2)
+    time.sleep(1.0)
     hanoi_puzzle_solver(aux, end, start, discs-1, h)
 
 # Start funksjon

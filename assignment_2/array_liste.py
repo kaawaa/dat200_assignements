@@ -38,7 +38,7 @@ class ArrayListe:
     def __len__(self):
         return self.lengde
 
-    # Kjøretid Theta(n)ccccccnurrkgulcnruedgnflucbthkfffdckhgurjbrk
+    # Kjøretid Theta(n)
 
     # TODO bør legge til funksjonalitet for å lage en ny buffer
     def utvid(self, ny_storrelse=None):
