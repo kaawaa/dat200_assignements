@@ -54,7 +54,7 @@ def finn_vindstyrke(tidspunkt: str, avltreet: AVLTre) -> float:
     tidspunkt = avltreet.next(gjor_om_til_datetime(tidspunkt))
     return avltreet.get(tidspunkt)
 
-# finn den maksimale vindstyrken 
+# finn den maksimale vindstyrken
 def finn_maks_vindstyrke(start_tidspunkt: str, avltreet: AVLTre) -> float:
     start_tidspunkt = gjor_om_til_datetime(start_tidspunkt)
     slutt_tidspunkt = start_tidspunkt + datetime.timedelta(days=1)
