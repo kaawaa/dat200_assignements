@@ -11,7 +11,7 @@ Then the node in the last level will be:
 Will the in-order traversal sequence of the resultant tree be the same for the numbers in the sequence 9,7, 5, 1, 8, 3, 2,6, 0, 4  ?
 
 - [ ] No
-- [x] Yes
+- [x] Yes <- egentlig feil
 
 3. The following numbers are inserted into an empty binary tree and binary search tree in the given order: 20,10, 1, 3, 5, 15, 12, 16,34,87,35. The height of the binary tree and binary search tree, respectively, is.
 - [ ] 4,4
